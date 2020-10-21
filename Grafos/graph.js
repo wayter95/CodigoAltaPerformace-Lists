@@ -8,3 +8,12 @@ var graph = [ [0, 1, 0, 0, 0, 0, 1, 0, 1, 0],
 [0, 0, 0, 0, 0, 0, 0, 0, 1, 1],
 [1, 0, 0, 1, 0, 0, 0, 1, 0, 0],
 [0, 1, 0, 0, 1, 0, 0, 1, 0, 0] ]
+
+for(var i; i < graph.length; i++){
+    var vertex = graph[i];
+    for (var j = 0; j < graph[i].length; j++) {
+        console.log(vertex[j]);
+    }
+}
+
+
